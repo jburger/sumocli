@@ -1,0 +1,10 @@
+# SaveToViewNotificationSyncDefinition
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**TaskType** | **string** | Delivery channel for notifications. | [default to null]
+**ViewName** | **string** | Name of the View to save the notification to. | [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
