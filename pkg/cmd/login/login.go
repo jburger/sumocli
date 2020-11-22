@@ -1,15 +1,14 @@
 package login
 
 import (
-	"encoding/base64"
 	"encoding/json"
 	"fmt"
 	"github.com/manifoldco/promptui"
 	"github.com/rs/zerolog"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/wizedkyle/sumocli/api"
 	"github.com/wizedkyle/sumocli/pkg/logging"
+	model "github.com/wizedkyle/sumocli/api"
 	"io/ioutil"
 	"os"
 	"path/filepath"
@@ -51,18 +50,23 @@ func configPath() string {
 	return configFile
 }
 
-func getCredentials() {
-	var credentials api.SumoAuth
+type SumoCredential struct {
+	AccessId	string
+	AccessKey	string
+	Region		string
+	Endpoint	string
+}
 
-	sumoApiEndpoints := []api.SumoApiEndpoint{
-		{Name: "Australia", Code: "au", Endpoint: "https://api.au.sumologic.com/api/"},
-		{Name: "Canada", Code: "ca", Endpoint: "https://api.ca.sumologic.com/api/"},
-		{Name: "Germany", Code: "de", Endpoint: "https://api.de.sumologic.com/api/"},
-		{Name: "Ireland", Code: "eu", Endpoint: "https://api.eu.sumologic.com/api/"},
-		{Name: "India", Code: "in", Endpoint: "https://api.in.sumologic.com/api/"},
-		{Name: "Japan", Code: "jp", Endpoint: "https://api.jp.sumologic.com/api/"},
-		{Name: "USA1", Code: "us1", Endpoint: "https://api.sumologic.com/api/"},
-		{Name: "USA2", Code: "us2", Endpoint: "https://api.us2.sumologic.com/api/"},
+func getCredentials() {
+	sumoApiEndpoints := []model.SumoApiEndpoint{
+		{Name: "Australia", Code: "au", Endpoint: "https://api.au.sumologic.com/api"},
+		{Name: "Canada", Code: "ca", Endpoint: "https://api.ca.sumologic.com/api"},
+		{Name: "Germany", Code: "de", Endpoint: "https://api.de.sumologic.com/api"},
+		{Name: "Ireland", Code: "eu", Endpoint: "https://api.eu.sumologic.com/api"},
+		{Name: "India", Code: "in", Endpoint: "https://api.in.sumologic.com/api"},
+		{Name: "Japan", Code: "jp", Endpoint: "https://api.jp.sumologic.com/api"},
+		{Name: "USA1", Code: "us1", Endpoint: "https://api.sumologic.com/api"},
+		{Name: "USA2", Code: "us2", Endpoint: "https://api.us2.sumologic.com/api"},
 	}
 
 	templates := &promptui.SelectTemplates{
@@ -106,10 +110,12 @@ func getCredentials() {
 	accessIdResult, err := promptAccessId.Run()
 	accessKeyResult, err := promptAccessKey.Run()
 	regionResultIndex, _, err := promptRegion.Run()
-	credentials.AccessId = accessIdResult
-	credentials.AccessKey = accessKeyResult
-	credentials.Region = sumoApiEndpoints[regionResultIndex].Code
-	credentials.Endpoint = sumoApiEndpoints[regionResultIndex].Endpoint
+	credentials := SumoCredential{
+		AccessId:  accessIdResult,
+		AccessKey: accessKeyResult,
+		Region:    sumoApiEndpoints[regionResultIndex].Code,
+		Endpoint:  sumoApiEndpoints[regionResultIndex].Endpoint,
+	}
 
 	if err != nil {
 		fmt.Printf("Prompt failed %v\n", err)
@@ -133,30 +139,26 @@ func getCredentials() {
 	return
 }
 
-func ReadCredentials() (string, string) {
+func ReadCredentialsAndEndpoint() (model.BasicAuth, string) {
 	viper.SetConfigName("creds")
 	viper.AddConfigPath(filepath.Dir(configPath()))
 	viper.AutomaticEnv()
 	err := viper.ReadInConfig()
+	accessId, accessKey, endpoint := "", "", ""
 	if err != nil {
-		accessidenv := viper.GetString("SUMO_ACCESS_ID")
-		accesskeyenv := viper.GetString("SUMO_ACCESS_KEY")
-		endpointenv := viper.GetString("SUMO_ENDPOINT")
-
-		accessCredentials := accessidenv + ":" + accesskeyenv
-		accessCredentialsEnc := base64.StdEncoding.EncodeToString([]byte(accessCredentials))
-		accessCredentialsComplete := "Basic " + accessCredentialsEnc
-		return accessCredentialsComplete, endpointenv
+		accessId = viper.GetString("SUMO_ACCESS_ID")
+		accessKey = viper.GetString("SUMO_ACCESS_KEY")
+		endpoint = viper.GetString("SUMO_ENDPOINT")
 	} else {
-		accessid := viper.GetString("accessid")
-		accesskey := viper.GetString("accesskey")
-		endpoint := viper.GetString("endpoint")
-
-		accessCredentials := accessid + ":" + accesskey
-		accessCredentialsEnc := base64.StdEncoding.EncodeToString([]byte(accessCredentials))
-		accessCredentialsComplete := "Basic " + accessCredentialsEnc
-		return accessCredentialsComplete, endpoint
+		accessId = viper.GetString("accessId")
+		accessKey = viper.GetString("accessKey")
+		endpoint = viper.GetString("endpoint")
 	}
+
+	return model.BasicAuth{
+		UserName: accessId,
+		Password: accessKey,
+	}, endpoint
 }
 
 func userConfirmation() bool {

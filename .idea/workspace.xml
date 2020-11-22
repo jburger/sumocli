@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:jb" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a10d099-0648-4761-906f-856a78c117d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/SumoApiEndpoint.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/options/options_utils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/auth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/roles.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/users.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/factory/http.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/factory/http.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/login/login.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/login/login.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/roles/assign/assign.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/roles/assign/assign.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/roles/create/create.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/roles/create/create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/roles/delete/delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/roles/delete/delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/roles/get/get.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/roles/get/get.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/roles/list/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/roles/list/list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/roles/remove/remove.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/roles/remove/remove.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/roles/roles.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/roles/roles.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/roles/update/update.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/roles/update/update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/users/change/change.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/users/change/change.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/users/create/create.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/users/create/create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/users/delete/delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/users/delete/delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/users/disable/disable.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/users/disable/disable.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/users/get/get.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/users/get/get.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/users/list/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/users/list/list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/users/unlock/unlock.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/users/unlock/unlock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/cmd/users/users.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/cmd/users/users.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/.swagger-codegen-ignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/.swagger-codegen-ignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/.swagger-codegen/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/api/.swagger-codegen/VERSION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/api/swagger.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_access_key_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_access_key_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_app_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_app_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_archive_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_archive_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_connection_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_connection_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_content_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_content_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_content_permissions.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_content_permissions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_dashboard_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_dashboard_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_extraction_rule_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_extraction_rule_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_field_management_v1.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_field_management_v1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_folder_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_folder_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_health_events.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_health_events.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_ingest_budget_management_v1.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_ingest_budget_management_v1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_ingest_budget_management_v2.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_ingest_budget_management_v2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_log_searches_estimated_usage.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_log_searches_estimated_usage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_lookup_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_lookup_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_metrics_alert_monitor_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_metrics_alert_monitor_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_metrics_searches_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_metrics_searches_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_monitors_library_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_monitors_library_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_partition_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_partition_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_password_policy.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_password_policy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_role_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_role_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_saml_configuration_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_saml_configuration_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_scheduled_view_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_scheduled_view_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_service_allowlist_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_service_allowlist_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_service_whitelist_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_service_whitelist_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_tokens_library_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_tokens_library_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_transformation_rule_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_transformation_rule_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/api_user_management.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_user_management.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/configuration.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/configuration.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AccessKey.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AccessKey.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AccessKeyCreateRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AccessKeyCreateRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AccessKeyManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AccessKeyManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AccessKeyPublic.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AccessKeyPublic.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AccessKeyUpdateRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AccessKeyUpdateRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Action.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Action.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AddOrReplaceTransformation.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AddOrReplaceTransformation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AggregateOnTransformation.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AggregateOnTransformation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AlertSearchNotificationSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AlertSearchNotificationSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AllowlistedUserResult.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AllowlistedUserResult.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AllowlistingStatus.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AllowlistingStatus.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/App.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/App.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AppDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AppDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AppInstallRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AppInstallRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AppManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AppManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AppManifest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AppManifest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ArchiveJob.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ArchiveJob.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ArchiveJobsCount.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ArchiveJobsCount.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ArchiveManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ArchiveManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AsyncJobStatus.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AsyncJobStatus.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AtLeastOnceOverThreshold.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AtLeastOnceOverThreshold.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AuthnCertificateResult.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AuthnCertificateResult.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AutoCompleteValueSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AutoCompleteValueSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AwsCloudWatchCollectionErrorTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AwsCloudWatchCollectionErrorTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AwsInventoryCollectionErrorTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AwsInventoryCollectionErrorTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AwsLambda.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AwsLambda.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/AzureFunctions.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/AzureFunctions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/BaseExtractionRuleDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/BaseExtractionRuleDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Baselines.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Baselines.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/BeginAsyncJobResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/BeginAsyncJobResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/BeginBoundedTimeRange.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/BeginBoundedTimeRange.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Body.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Body.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/BuiltinField.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/BuiltinField.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/BuiltinFieldUsage.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/BuiltinFieldUsage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/BulkAsyncStatusResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/BulkAsyncStatusResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/BulkBeginAsyncJobResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/BulkBeginAsyncJobResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/BulkErrorResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/BulkErrorResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CalculatorRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CalculatorRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CapabilityDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CapabilityDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CapabilityDefinitionGroup.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CapabilityDefinitionGroup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CapabilityList.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CapabilityList.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CapabilityMap.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CapabilityMap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Capacity.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Capacity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ChangeEmailRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ChangeEmailRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Cidr.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Cidr.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CidrList.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CidrList.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionAffectedDueToIngestBudgetTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionAffectedDueToIngestBudgetTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionAwsInventoryThrottledTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionAwsInventoryThrottledTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionAwsInventoryUnauthorizedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionAwsInventoryUnauthorizedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionAwsMetadataTagsFetchDeniedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionAwsMetadataTagsFetchDeniedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionCloudWatchGetStatisticsDeniedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionCloudWatchGetStatisticsDeniedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionCloudWatchGetStatisticsThrottledTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionCloudWatchGetStatisticsThrottledTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionCloudWatchListMetricsDeniedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionCloudWatchListMetricsDeniedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionCloudWatchTagsFetchDeniedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionCloudWatchTagsFetchDeniedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionDockerClientBuildingFailedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionDockerClientBuildingFailedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionInvalidFilePathTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionInvalidFilePathTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionPathAccessDeniedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionPathAccessDeniedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionRemoteConnectionFailedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionRemoteConnectionFailedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionS3AccessDeniedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionS3AccessDeniedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionS3InvalidKeyTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionS3InvalidKeyTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionS3ListingFailedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionS3ListingFailedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionS3SlowListingTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionS3SlowListingTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionWindowsEventChannelConnectionFailedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionWindowsEventChannelConnectionFailedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectionWindowsHostConnectionFailedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectionWindowsHostConnectionFailedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Collector.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Collector.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectorIdentity.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectorIdentity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectorRegistrationTokenResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectorRegistrationTokenResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CollectorResourceIdentity.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CollectorResourceIdentity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ColoringRule.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ColoringRule.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ColoringThreshold.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ColoringThreshold.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CompleteLiteralTimeRange.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CompleteLiteralTimeRange.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ConfigureSubdomainRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ConfigureSubdomainRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Connection.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Connection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ConnectionDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ConnectionDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ConnectionManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ConnectionManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Consumable.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Consumable.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ConsumptionDetails.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ConsumptionDetails.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ContainerPanel.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ContainerPanel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Content.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Content.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ContentCopyParams.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ContentCopyParams.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ContentList.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ContentList.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ContentManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ContentManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ContentPath.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ContentPath.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ContentPermissionAssignment.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ContentPermissionAssignment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ContentPermissionResult.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ContentPermissionResult.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ContentPermissionUpdateRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ContentPermissionUpdateRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ContentPermissionsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ContentPermissionsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ContentSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ContentSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ContractDetails.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ContractDetails.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ContractPeriod.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ContractPeriod.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CreateArchiveJobRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CreateArchiveJobRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CreatePartitionDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CreatePartitionDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CreateRoleDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CreateRoleDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CreateScheduledViewDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CreateScheduledViewDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CreateUserDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CreateUserDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsAccessErrorTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsAccessErrorTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsErrorAppendingToQueueFilesTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsErrorAppendingToQueueFilesTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsErrorParsingRecordsTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsErrorParsingRecordsTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsErrorTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsErrorTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsExcessiveBacklogTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsExcessiveBacklogTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsExcessiveEventLogMonitorsTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsExcessiveEventLogMonitorsTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsExcessiveFilesPendingUploadTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsExcessiveFilesPendingUploadTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsInvalidConfigurationTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsInvalidConfigurationTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsInvalidUserPermissionsTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsInvalidUserPermissionsTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsOldestRecordTimestampExceedsThresholdTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsOldestRecordTimestampExceedsThresholdTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsParsingErrorTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsParsingErrorTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsRuntimeErrorTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsRuntimeErrorTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsRuntimeWarningTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsRuntimeWarningTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsSensorOfflineTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsSensorOfflineTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsSensorOutOfStorageTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsSensorOutOfStorageTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsStorageLimitApproachingTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsStorageLimitApproachingTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsStorageLimitExceededTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsStorageLimitExceededTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CseWindowsWriteQueueFilesToSensorDirectoryFailedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CseWindowsWriteQueueFilesToSensorDirectoryFailedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CsvVariableSourceDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CsvVariableSourceDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CurrentBillingPeriod.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CurrentBillingPeriod.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CurrentPlan.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CurrentPlan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CustomField.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CustomField.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/CustomFieldUsage.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/CustomFieldUsage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Dashboard.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Dashboard.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/DashboardManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/DashboardManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/DashboardRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/DashboardRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/DashboardSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/DashboardSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/DataIngestAffectedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/DataIngestAffectedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/DataPoints.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/DataPoints.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/DataValue.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/DataValue.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Datadog.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Datadog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/DimensionTransformation.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/DimensionTransformation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/DisableMfaRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/DisableMfaRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/DroppedField.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/DroppedField.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Email.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Email.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/EmailNotification.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/EmailNotification.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/EmailSearchNotificationSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/EmailSearchNotificationSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/EntitlementConsumption.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/EntitlementConsumption.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Entitlements.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Entitlements.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/EpochTimeRangeBoundary.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/EpochTimeRangeBoundary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ErrorDescription.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ErrorDescription.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ErrorResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ErrorResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/EstimatedUsageDetails.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/EstimatedUsageDetails.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/EventsOfInterestScatterPanel.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/EventsOfInterestScatterPanel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ExportableLookupTableInfo.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ExportableLookupTableInfo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ExtractionRule.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ExtractionRule.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ExtractionRuleDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ExtractionRuleDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ExtractionRuleManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ExtractionRuleManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/FieldManagementV1Api.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/FieldManagementV1Api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/FieldName.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/FieldName.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/FieldQuotaUsage.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/FieldQuotaUsage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/FileCollectionErrorTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/FileCollectionErrorTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Folder.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Folder.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/FolderDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/FolderDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/FolderManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/FolderManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/FolderSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/FolderSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/GetCollectorsUsageResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/GetCollectorsUsageResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/GetSourcesUsageResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/GetSourcesUsageResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Grid.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Grid.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Header.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Header.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/HealthEvent.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/HealthEvent.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/HealthEventsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/HealthEventsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/HighCardinalityDimensionDroppedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/HighCardinalityDimensionDroppedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/HipChat.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/HipChat.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/IngestBudget.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/IngestBudget.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/IngestBudgetDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/IngestBudgetDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/IngestBudgetDefinitionV2.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/IngestBudgetDefinitionV2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/IngestBudgetExceededTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/IngestBudgetExceededTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/IngestBudgetManagementV1Api.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/IngestBudgetManagementV1Api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/IngestBudgetManagementV2Api.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/IngestBudgetManagementV2Api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/IngestBudgetResourceIdentity.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/IngestBudgetResourceIdentity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/IngestBudgetV2.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/IngestBudgetV2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/IngestThrottlingTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/IngestThrottlingTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/InstalledCollectorOfflineTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/InstalledCollectorOfflineTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Iso8601TimeRangeBoundary.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Iso8601TimeRangeBoundary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Jira.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Jira.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Layout.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Layout.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LayoutStructure.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LayoutStructure.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LinkedDashboard.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LinkedDashboard.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListAccessKeysResult.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListAccessKeysResult.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListAppsResult.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListAppsResult.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListArchiveJobsCount.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListArchiveJobsCount.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListArchiveJobsResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListArchiveJobsResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListBuiltinFieldsResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListBuiltinFieldsResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListBuiltinFieldsUsageResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListBuiltinFieldsUsageResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListCollectorIdentitiesResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListCollectorIdentitiesResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListConnectionsResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListConnectionsResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListCustomFieldsResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListCustomFieldsResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListCustomFieldsUsageResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListCustomFieldsUsageResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListDroppedFieldsResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListDroppedFieldsResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListExtractionRulesResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListExtractionRulesResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListFieldNamesResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListFieldNamesResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListHealthEventResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListHealthEventResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListIngestBudgetsResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListIngestBudgetsResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListIngestBudgetsResponseV2.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListIngestBudgetsResponseV2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListPartitionsResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListPartitionsResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListRoleModelsResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListRoleModelsResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListScheduledViewsResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListScheduledViewsResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListTokensBaseResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListTokensBaseResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListUserId.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListUserId.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ListUserModelsResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ListUserModelsResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LiteralTimeRangeBoundary.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LiteralTimeRangeBoundary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LogQueryVariableSourceDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LogQueryVariableSourceDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LogSearchEstimatedUsageDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LogSearchEstimatedUsageDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LogSearchEstimatedUsageRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LogSearchEstimatedUsageRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LogSearchQueryTimeRangeBase.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LogSearchQueryTimeRangeBase.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LogSearchesEstimatedUsageApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LogSearchesEstimatedUsageApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LogsToMetricsRuleDisabledTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LogsToMetricsRuleDisabledTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LogsToMetricsRuleIdentity.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LogsToMetricsRuleIdentity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LookupAsyncJobStatus.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LookupAsyncJobStatus.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LookupManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LookupManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LookupPreviewData.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LookupPreviewData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LookupRequestToken.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LookupRequestToken.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LookupTable.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LookupTable.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LookupTableDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LookupTableDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LookupTableField.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LookupTableField.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LookupTableSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LookupTableSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LookupTablesLimits.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LookupTablesLimits.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/LookupUpdateDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/LookupUpdateDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetadataModel.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetadataModel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetadataVariableSourceDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetadataVariableSourceDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetadataWithUserInfo.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetadataWithUserInfo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsAlertMonitorManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsAlertMonitorManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsAlertQuery.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsAlertQuery.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsCardinalityLimitExceededTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsCardinalityLimitExceededTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsFilter.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsFilter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsHighCardinalityDetectedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsHighCardinalityDetectedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsMetadataKeyLengthLimitExceeded.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsMetadataKeyLengthLimitExceeded.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsMetadataKeyLengthLimitExceededTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsMetadataKeyLengthLimitExceededTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsMetadataKeyValuePairsLimitExceeded.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsMetadataKeyValuePairsLimitExceeded.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsMetadataKeyValuePairsLimitExceededTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsMetadataKeyValuePairsLimitExceededTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsMetadataLimitsExceededTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsMetadataLimitsExceededTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsMetadataTotalMetadataSizeLimitExceeded.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsMetadataTotalMetadataSizeLimitExceeded.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsMetadataTotalMetadataSizeLimitExceededTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsMetadataTotalMetadataSizeLimitExceededTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsMetadataValueLengthLimitExceeded.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsMetadataValueLengthLimitExceeded.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsMetadataValueLengthLimitExceededTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsMetadataValueLengthLimitExceededTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsMonitorDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsMonitorDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsMonitorInstance.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsMonitorInstance.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsMonitorMuteStatus.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsMonitorMuteStatus.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsMonitorsResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsMonitorsResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsQueryData.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsQueryData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsQuerySyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsQuerySyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsSavedSearchQuerySyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsSavedSearchQuerySyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsSavedSearchSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsSavedSearchSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsSearchInstance.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsSearchInstance.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsSearchQuery.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsSearchQuery.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsSearchSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsSearchSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsSearchV1.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsSearchV1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MetricsSearchesManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MetricsSearchesManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MewboardSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MewboardSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MissingDataRule.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MissingDataRule.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorNotification.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorNotification.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorQuery.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorQuery.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorRules.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorRules.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorUsageInfo.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorUsageInfo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorsLibraryBase.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorsLibraryBase.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorsLibraryBaseExport.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorsLibraryBaseExport.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorsLibraryBaseResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorsLibraryBaseResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorsLibraryBaseUpdate.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorsLibraryBaseUpdate.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorsLibraryFolder.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorsLibraryFolder.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorsLibraryFolderExport.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorsLibraryFolderExport.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorsLibraryFolderResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorsLibraryFolderResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorsLibraryFolderUpdate.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorsLibraryFolderUpdate.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorsLibraryItemWithPath.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorsLibraryItemWithPath.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorsLibraryManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorsLibraryManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorsLibraryMonitor.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorsLibraryMonitor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorsLibraryMonitorExport.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorsLibraryMonitorExport.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorsLibraryMonitorResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorsLibraryMonitorResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MonitorsLibraryMonitorUpdate.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MonitorsLibraryMonitorUpdate.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/MuteMetricsMonitorRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/MuteMetricsMonitorRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/NewRelic.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/NewRelic.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/NotificationThresholdSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/NotificationThresholdSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Notifications.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Notifications.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/OAuthRefreshFailedTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/OAuthRefreshFailedTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/OnDemandProvisioningInfo.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/OnDemandProvisioningInfo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Operator.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Operator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/OperatorData.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/OperatorData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/OperatorParameter.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/OperatorParameter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Opsgenie.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Opsgenie.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/OrgIdentity.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/OrgIdentity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/PagerDuty.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/PagerDuty.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/PaginatedListAccessKeysResult.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/PaginatedListAccessKeysResult.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Panel.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Panel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ParameterAutoCompleteSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ParameterAutoCompleteSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Partition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Partition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/PartitionManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/PartitionManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/PartitionsResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/PartitionsResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/PasswordPolicy.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/PasswordPolicy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/PasswordPolicyApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/PasswordPolicyApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Path.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Path.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/PathItem.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/PathItem.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Plan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/PreviewLookupTableField.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/PreviewLookupTableField.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ProductGroup.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ProductGroup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ProductVariable.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ProductVariable.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Quantity.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Quantity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Query.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Query.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/QueryParameterSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/QueryParameterSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/RelativeTimeRangeBoundary.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/RelativeTimeRangeBoundary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ReportFilterSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ReportFilterSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ReportPanelSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ReportPanelSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ResolvableTimeRange.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ResolvableTimeRange.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ResourceIdentities.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ResourceIdentities.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ResourceIdentity.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ResourceIdentity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/RoleManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/RoleManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/RoleModel.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/RoleModel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/RowDeleteDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/RowDeleteDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/RowUpdateDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/RowUpdateDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/S3CollectionErrorTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/S3CollectionErrorTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SamlConfigurationManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SamlConfigurationManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SamlIdentityProvider.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SamlIdentityProvider.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SamlIdentityProviderRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SamlIdentityProviderRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SaveMetricsSearchRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SaveMetricsSearchRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SaveToLookupNotificationSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SaveToLookupNotificationSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SaveToViewNotificationSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SaveToViewNotificationSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SavedSearchSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SavedSearchSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SavedSearchWithScheduleSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SavedSearchWithScheduleSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ScheduleNotificationSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ScheduleNotificationSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ScheduleSearchParameterSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ScheduleSearchParameterSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ScheduledView.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ScheduledView.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ScheduledViewManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ScheduledViewManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SearchScheduleSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SearchScheduleSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ServiceAllowlistManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ServiceAllowlistManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ServiceManifestDataSourceParameter.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ServiceManifestDataSourceParameter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ServiceNowConnection.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ServiceNowConnection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ServiceNowDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ServiceNowDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ServiceNowFieldsSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ServiceNowFieldsSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ServiceNowSearchNotificationSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ServiceNowSearchNotificationSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ServiceWhitelistManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ServiceWhitelistManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SharedBucket.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SharedBucket.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Slack.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Slack.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Source.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Source.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SourceResourceIdentity.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SourceResourceIdentity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SpanIngestLimitExceededTracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SpanIngestLimitExceededTracker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SubdomainAvailabilityResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SubdomainAvailabilityResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SubdomainDefinitionResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SubdomainDefinitionResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SubdomainUrlResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SubdomainUrlResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/SumoSearchPanel.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/SumoSearchPanel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TableRow.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TableRow.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TestConnectionResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TestConnectionResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TextPanel.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TextPanel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/ThresholdRule.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/ThresholdRule.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TimeRangeBoundary.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TimeRangeBoundary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TokenBaseDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TokenBaseDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TokenBaseDefinitionUpdate.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TokenBaseDefinitionUpdate.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TokenBaseResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TokenBaseResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TokensLibraryManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TokensLibraryManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TopologyLabelMap.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TopologyLabelMap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TopologySearchLabel.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TopologySearchLabel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TotalCredits.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TotalCredits.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TrackerIdentity.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TrackerIdentity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TransformationRuleDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TransformationRuleDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TransformationRuleManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TransformationRuleManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TransformationRuleRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TransformationRuleRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TransformationRuleResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TransformationRuleResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TransformationRulesResponse.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TransformationRulesResponse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/TriggerCondition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/TriggerCondition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/UpdateExtractionRuleDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/UpdateExtractionRuleDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/UpdateFolderRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/UpdateFolderRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/UpdatePartitionDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/UpdatePartitionDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/UpdateRoleDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/UpdateRoleDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/UpdateScheduledViewDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/UpdateScheduledViewDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/UpdateUserDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/UpdateUserDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/UpgradePlans.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/UpgradePlans.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/UpgradePreview.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/UpgradePreview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/UpgradeRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/UpgradeRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/UserInfo.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/UserInfo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/UserManagementApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/UserManagementApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/UserModel.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/UserModel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Variable.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Variable.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/VariableSourceDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/VariableSourceDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/VariableValuesLogQueryRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/VariableValuesLogQueryRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/VariablesValuesData.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/VariablesValuesData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/WarningDescription.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/WarningDescription.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/Webhook.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/Webhook.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/WebhookConnection.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/WebhookConnection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/WebhookDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/WebhookDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/WebhookNotification.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/WebhookNotification.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/WebhookSearchNotificationSyncDefinition.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/WebhookSearchNotificationSyncDefinition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/docs/WholeWindowOverThreshold.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/WholeWindowOverThreshold.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/generate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/generate.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/git_push.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/git_push.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_access_key.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_access_key.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_access_key_create_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_access_key_create_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_access_key_public.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_access_key_public.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_access_key_update_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_access_key_update_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_action.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_action.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_add_or_replace_transformation.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_add_or_replace_transformation.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_aggregate_on_transformation.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_aggregate_on_transformation.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_alert_search_notification_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_alert_search_notification_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_allowlisted_user_result.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_allowlisted_user_result.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_allowlisting_status.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_allowlisting_status.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_app.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_app_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_app_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_app_install_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_app_install_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_app_manifest.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_app_manifest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_archive_job.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_archive_job.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_archive_jobs_count.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_archive_jobs_count.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_async_job_status.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_async_job_status.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_at_least_once_over_threshold.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_at_least_once_over_threshold.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_authn_certificate_result.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_authn_certificate_result.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_auto_complete_value_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_auto_complete_value_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_aws_cloud_watch_collection_error_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_aws_cloud_watch_collection_error_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_aws_inventory_collection_error_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_aws_inventory_collection_error_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_aws_lambda.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_aws_lambda.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_azure_functions.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_azure_functions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_base_extraction_rule_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_base_extraction_rule_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_baselines.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_baselines.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_begin_async_job_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_begin_async_job_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_begin_bounded_time_range.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_begin_bounded_time_range.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_body.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_body.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_builtin_field.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_builtin_field.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_builtin_field_usage.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_builtin_field_usage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_bulk_async_status_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_bulk_async_status_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_bulk_begin_async_job_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_bulk_begin_async_job_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_bulk_error_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_bulk_error_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_calculator_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_calculator_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_capability_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_capability_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_capability_definition_group.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_capability_definition_group.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_capability_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_capability_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_capability_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_capability_map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_capacity.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_capacity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_change_email_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_change_email_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cidr.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cidr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cidr_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cidr_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_affected_due_to_ingest_budget_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_affected_due_to_ingest_budget_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_aws_inventory_throttled_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_aws_inventory_throttled_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_aws_inventory_unauthorized_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_aws_inventory_unauthorized_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_aws_metadata_tags_fetch_denied_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_aws_metadata_tags_fetch_denied_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_cloud_watch_get_statistics_denied_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_cloud_watch_get_statistics_denied_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_cloud_watch_get_statistics_throttled_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_cloud_watch_get_statistics_throttled_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_cloud_watch_list_metrics_denied_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_cloud_watch_list_metrics_denied_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_cloud_watch_tags_fetch_denied_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_cloud_watch_tags_fetch_denied_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_docker_client_building_failed_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_docker_client_building_failed_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_invalid_file_path_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_invalid_file_path_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_path_access_denied_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_path_access_denied_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_remote_connection_failed_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_remote_connection_failed_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_s3_access_denied_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_s3_access_denied_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_s3_invalid_key_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_s3_invalid_key_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_s3_listing_failed_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_s3_listing_failed_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_s3_slow_listing_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_s3_slow_listing_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_windows_event_channel_connection_failed_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_windows_event_channel_connection_failed_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collection_windows_host_connection_failed_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collection_windows_host_connection_failed_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collector.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collector.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collector_identity.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collector_identity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collector_registration_token_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collector_registration_token_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_collector_resource_identity.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_collector_resource_identity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_coloring_rule.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_coloring_rule.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_coloring_threshold.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_coloring_threshold.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_complete_literal_time_range.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_complete_literal_time_range.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_configure_subdomain_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_configure_subdomain_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_connection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_connection_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_connection_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_consumable.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_consumable.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_consumption_details.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_consumption_details.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_container_panel.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_container_panel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_content.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_content.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_content_copy_params.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_content_copy_params.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_content_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_content_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_content_path.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_content_path.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_content_permission_assignment.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_content_permission_assignment.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_content_permission_result.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_content_permission_result.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_content_permission_update_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_content_permission_update_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_content_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_content_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_contract_details.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_contract_details.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_contract_period.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_contract_period.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_create_archive_job_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_create_archive_job_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_create_partition_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_create_partition_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_create_role_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_create_role_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_create_scheduled_view_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_create_scheduled_view_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_create_user_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_create_user_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_access_error_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_access_error_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_error_appending_to_queue_files_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_error_appending_to_queue_files_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_error_parsing_records_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_error_parsing_records_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_error_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_error_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_excessive_backlog_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_excessive_backlog_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_excessive_event_log_monitors_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_excessive_event_log_monitors_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_excessive_files_pending_upload_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_excessive_files_pending_upload_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_invalid_configuration_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_invalid_configuration_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_invalid_user_permissions_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_invalid_user_permissions_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_oldest_record_timestamp_exceeds_threshold_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_oldest_record_timestamp_exceeds_threshold_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_parsing_error_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_parsing_error_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_runtime_error_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_runtime_error_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_runtime_warning_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_runtime_warning_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_sensor_offline_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_sensor_offline_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_sensor_out_of_storage_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_sensor_out_of_storage_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_storage_limit_approaching_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_storage_limit_approaching_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_storage_limit_exceeded_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_storage_limit_exceeded_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_cse_windows_write_queue_files_to_sensor_directory_failed_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_cse_windows_write_queue_files_to_sensor_directory_failed_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_csv_variable_source_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_csv_variable_source_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_current_billing_period.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_current_billing_period.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_current_plan.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_current_plan.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_custom_field.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_custom_field.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_custom_field_usage.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_custom_field_usage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_dashboard.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_dashboard.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_dashboard_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_dashboard_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_dashboard_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_dashboard_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_data_ingest_affected_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_data_ingest_affected_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_data_points.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_data_points.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_data_value.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_data_value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_datadog.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_datadog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_dimension_transformation.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_dimension_transformation.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_disable_mfa_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_disable_mfa_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_dropped_field.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_dropped_field.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_email.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_email.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_email_notification.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_email_notification.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_email_search_notification_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_email_search_notification_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_entitlement_consumption.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_entitlement_consumption.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_entitlements.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_entitlements.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_epoch_time_range_boundary.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_epoch_time_range_boundary.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_error_description.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_error_description.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_error_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_error_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_estimated_usage_details.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_estimated_usage_details.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_events_of_interest_scatter_panel.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_events_of_interest_scatter_panel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_exportable_lookup_table_info.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_exportable_lookup_table_info.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_extraction_rule.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_extraction_rule.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_extraction_rule_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_extraction_rule_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_field_name.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_field_name.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_field_quota_usage.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_field_quota_usage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_file_collection_error_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_file_collection_error_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_folder.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_folder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_folder_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_folder_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_folder_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_folder_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_get_collectors_usage_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_get_collectors_usage_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_get_sources_usage_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_get_sources_usage_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_grid.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_grid.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_header.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_header.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_health_event.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_health_event.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_high_cardinality_dimension_dropped_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_high_cardinality_dimension_dropped_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_hip_chat.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_hip_chat.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_ingest_budget.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_ingest_budget.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_ingest_budget_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_ingest_budget_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_ingest_budget_definition_v2.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_ingest_budget_definition_v2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_ingest_budget_exceeded_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_ingest_budget_exceeded_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_ingest_budget_resource_identity.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_ingest_budget_resource_identity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_ingest_budget_v2.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_ingest_budget_v2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_ingest_throttling_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_ingest_throttling_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_installed_collector_offline_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_installed_collector_offline_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_iso8601_time_range_boundary.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_iso8601_time_range_boundary.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_jira.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_jira.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_layout.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_layout.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_layout_structure.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_layout_structure.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_linked_dashboard.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_linked_dashboard.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_access_keys_result.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_access_keys_result.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_apps_result.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_apps_result.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_archive_jobs_count.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_archive_jobs_count.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_archive_jobs_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_archive_jobs_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_builtin_fields_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_builtin_fields_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_builtin_fields_usage_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_builtin_fields_usage_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_collector_identities_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_collector_identities_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_connections_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_connections_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_custom_fields_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_custom_fields_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_custom_fields_usage_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_custom_fields_usage_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_dropped_fields_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_dropped_fields_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_extraction_rules_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_extraction_rules_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_field_names_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_field_names_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_health_event_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_health_event_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_ingest_budgets_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_ingest_budgets_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_ingest_budgets_response_v2.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_ingest_budgets_response_v2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_partitions_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_partitions_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_role_models_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_role_models_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_scheduled_views_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_scheduled_views_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_tokens_base_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_tokens_base_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_user_id.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_user_id.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_list_user_models_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_list_user_models_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_literal_time_range_boundary.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_literal_time_range_boundary.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_log_query_variable_source_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_log_query_variable_source_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_log_search_estimated_usage_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_log_search_estimated_usage_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_log_search_estimated_usage_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_log_search_estimated_usage_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_log_search_query_time_range_base.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_log_search_query_time_range_base.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_logs_to_metrics_rule_disabled_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_logs_to_metrics_rule_disabled_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_logs_to_metrics_rule_identity.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_logs_to_metrics_rule_identity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_lookup_async_job_status.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_lookup_async_job_status.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_lookup_preview_data.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_lookup_preview_data.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_lookup_request_token.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_lookup_request_token.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_lookup_table.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_lookup_table.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_lookup_table_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_lookup_table_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_lookup_table_field.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_lookup_table_field.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_lookup_table_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_lookup_table_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_lookup_tables_limits.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_lookup_tables_limits.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_lookup_update_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_lookup_update_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metadata_model.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metadata_model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metadata_variable_source_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metadata_variable_source_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metadata_with_user_info.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metadata_with_user_info.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_alert_query.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_alert_query.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_cardinality_limit_exceeded_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_cardinality_limit_exceeded_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_filter.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_filter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_high_cardinality_detected_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_high_cardinality_detected_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_metadata_key_length_limit_exceeded.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_metadata_key_length_limit_exceeded.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_metadata_key_length_limit_exceeded_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_metadata_key_length_limit_exceeded_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_metadata_key_value_pairs_limit_exceeded.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_metadata_key_value_pairs_limit_exceeded.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_metadata_key_value_pairs_limit_exceeded_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_metadata_key_value_pairs_limit_exceeded_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_metadata_limits_exceeded_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_metadata_limits_exceeded_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_metadata_total_metadata_size_limit_exceeded.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_metadata_total_metadata_size_limit_exceeded.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_metadata_total_metadata_size_limit_exceeded_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_metadata_total_metadata_size_limit_exceeded_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_metadata_value_length_limit_exceeded.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_metadata_value_length_limit_exceeded.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_metadata_value_length_limit_exceeded_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_metadata_value_length_limit_exceeded_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_monitor_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_monitor_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_monitor_instance.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_monitor_instance.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_monitor_mute_status.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_monitor_mute_status.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_monitors_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_monitors_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_query_data.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_query_data.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_query_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_query_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_saved_search_query_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_saved_search_query_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_saved_search_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_saved_search_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_search_instance.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_search_instance.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_search_query.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_search_query.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_search_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_search_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_metrics_search_v1.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_metrics_search_v1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_mewboard_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_mewboard_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_missing_data_rule.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_missing_data_rule.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitor_notification.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitor_notification.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitor_query.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitor_query.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitor_rules.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitor_rules.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitor_usage_info.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitor_usage_info.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitors_library_base.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitors_library_base.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitors_library_base_export.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitors_library_base_export.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitors_library_base_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitors_library_base_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitors_library_base_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitors_library_base_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitors_library_folder.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitors_library_folder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitors_library_folder_export.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitors_library_folder_export.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitors_library_folder_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitors_library_folder_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitors_library_folder_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitors_library_folder_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitors_library_item_with_path.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitors_library_item_with_path.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitors_library_monitor.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitors_library_monitor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitors_library_monitor_export.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitors_library_monitor_export.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitors_library_monitor_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitors_library_monitor_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_monitors_library_monitor_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_monitors_library_monitor_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_mute_metrics_monitor_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_mute_metrics_monitor_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_new_relic.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_new_relic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_notification_threshold_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_notification_threshold_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_notifications.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_notifications.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_o_auth_refresh_failed_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_o_auth_refresh_failed_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_on_demand_provisioning_info.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_on_demand_provisioning_info.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_operator.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_operator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_operator_data.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_operator_data.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_operator_parameter.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_operator_parameter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_opsgenie.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_opsgenie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_org_identity.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_org_identity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_pager_duty.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_pager_duty.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_paginated_list_access_keys_result.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_paginated_list_access_keys_result.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_panel.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_panel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_parameter_auto_complete_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_parameter_auto_complete_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_partition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_partition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_partitions_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_partitions_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_password_policy.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_password_policy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_path.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_path.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_path_item.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_path_item.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_plan.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_plan.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_preview_lookup_table_field.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_preview_lookup_table_field.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_product_group.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_product_group.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_product_variable.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_product_variable.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_quantity.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_quantity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_query.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_query.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_query_parameter_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_query_parameter_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_relative_time_range_boundary.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_relative_time_range_boundary.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_report_filter_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_report_filter_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_report_panel_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_report_panel_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_resolvable_time_range.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_resolvable_time_range.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_resource_identities.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_resource_identities.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_resource_identity.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_resource_identity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_role_model.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_role_model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_row_delete_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_row_delete_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_row_update_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_row_update_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_s3_collection_error_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_s3_collection_error_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_saml_identity_provider.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_saml_identity_provider.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_saml_identity_provider_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_saml_identity_provider_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_save_metrics_search_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_save_metrics_search_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_save_to_lookup_notification_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_save_to_lookup_notification_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_save_to_view_notification_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_save_to_view_notification_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_saved_search_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_saved_search_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_saved_search_with_schedule_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_saved_search_with_schedule_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_schedule_notification_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_schedule_notification_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_schedule_search_parameter_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_schedule_search_parameter_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_scheduled_view.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_scheduled_view.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_search_schedule_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_search_schedule_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_service_manifest_data_source_parameter.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_service_manifest_data_source_parameter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_service_now_connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_service_now_connection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_service_now_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_service_now_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_service_now_fields_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_service_now_fields_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_service_now_search_notification_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_service_now_search_notification_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_shared_bucket.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_shared_bucket.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_slack.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_slack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_source.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_source.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_source_resource_identity.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_source_resource_identity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_span_ingest_limit_exceeded_tracker.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_span_ingest_limit_exceeded_tracker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_subdomain_availability_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_subdomain_availability_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_subdomain_definition_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_subdomain_definition_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_subdomain_url_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_subdomain_url_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_sumo_search_panel.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_sumo_search_panel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_table_row.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_table_row.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_test_connection_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_test_connection_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_text_panel.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_text_panel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_threshold_rule.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_threshold_rule.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_time_range_boundary.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_time_range_boundary.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_token_base_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_token_base_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_token_base_definition_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_token_base_definition_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_token_base_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_token_base_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_topology_label_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_topology_label_map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_topology_search_label.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_topology_search_label.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_total_credits.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_total_credits.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_tracker_identity.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_tracker_identity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_transformation_rule_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_transformation_rule_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_transformation_rule_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_transformation_rule_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_transformation_rule_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_transformation_rule_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_transformation_rules_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_transformation_rules_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_trigger_condition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_trigger_condition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_update_extraction_rule_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_update_extraction_rule_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_update_folder_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_update_folder_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_update_partition_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_update_partition_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_update_role_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_update_role_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_update_scheduled_view_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_update_scheduled_view_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_update_user_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_update_user_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_upgrade_plans.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_upgrade_plans.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_upgrade_preview.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_upgrade_preview.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_upgrade_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_upgrade_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_user_info.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_user_info.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_user_model.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_user_model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_variable.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_variable.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_variable_source_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_variable_source_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_variable_values_log_query_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_variable_values_log_query_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_variables_values_data.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_variables_values_data.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_warning_description.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_warning_description.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_webhook.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_webhook.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_webhook_connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_webhook_connection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_webhook_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_webhook_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_webhook_notification.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_webhook_notification.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_webhook_search_notification_sync_definition.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_webhook_search_notification_sync_definition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/model_whole_window_over_threshold.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/model_whole_window_over_threshold.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/response.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/sumologic-api.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/sumologic-api.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumologic_client/swagger.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/swagger.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Users\jim\go\go1.15.5" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1kaqa3J1UBI3WhmrX3A7NGw8R8A" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jim\src\sumocli-wk\pkg\options" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jim\src\sumocli-wk\api" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="sumocli" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="sumocli-wk" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <parameters value="roles list" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cmd/sumocli/main.go" />
+      <package value="github.com/wizedkyle/sumocli" />
+      <directory value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$/dist" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="321" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606035666235">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="321" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1606035666235" />
+    <state x="625" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606036313970">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="625" y="502" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1606036313970" />
+    <state width="510" height="466" key="DebuggerActiveHint" timestamp="1606027624885">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="510" height="466" key="DebuggerActiveHint/0.0.3440.1400@0.0.3440.1400" timestamp="1606027624885" />
+    <state x="647" y="467" key="FileChooserDialogImpl" timestamp="1605949204057">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="647" y="467" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1605949204057" />
+    <state width="1676" height="401" key="GridCell.Tab.0.bottom" timestamp="1606036643337">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="401" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1606036643337" />
+    <state width="1676" height="401" key="GridCell.Tab.0.center" timestamp="1606036643337">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="401" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1606036643337" />
+    <state width="1676" height="401" key="GridCell.Tab.0.left" timestamp="1606036643337">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="401" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1606036643337" />
+    <state width="1676" height="401" key="GridCell.Tab.0.right" timestamp="1606036643337">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="401" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1606036643337" />
+    <state width="1676" height="492" key="GridCell.Tab.1.bottom" timestamp="1606033663215">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="492" key="GridCell.Tab.1.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1606033663215" />
+    <state width="1676" height="492" key="GridCell.Tab.1.center" timestamp="1606033663215">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="492" key="GridCell.Tab.1.center/0.0.3440.1400@0.0.3440.1400" timestamp="1606033663215" />
+    <state width="1676" height="492" key="GridCell.Tab.1.left" timestamp="1606033663215">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="492" key="GridCell.Tab.1.left/0.0.3440.1400@0.0.3440.1400" timestamp="1606033663215" />
+    <state width="1676" height="492" key="GridCell.Tab.1.right" timestamp="1606033663215">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="492" key="GridCell.Tab.1.right/0.0.3440.1400@0.0.3440.1400" timestamp="1606033663215" />
+    <state width="868" height="708" key="XDebugger.FullValuePopup" timestamp="1606031682307">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="868" height="708" key="XDebugger.FullValuePopup/0.0.3440.1400@0.0.3440.1400" timestamp="1606031682307" />
+    <state x="567" y="433" width="585" height="534" key="find.popup" timestamp="1606032031838">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="567" y="433" width="585" height="534" key="find.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1606032031838" />
+    <state x="710" y="461" key="refactoring.ChangeSignatureDialog" timestamp="1605952935781">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="710" y="461" key="refactoring.ChangeSignatureDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1605952935781" />
+    <state x="530" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1606031489974">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="530" y="319" width="672" height="678" key="search.everywhere.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1606031489974" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/api/api_role_management.go</url>
+          <line>462</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
