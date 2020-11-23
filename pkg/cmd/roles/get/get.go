@@ -39,6 +39,8 @@ id
 	cmd.Flags().StringVar(&id, "id", "", "Specify the id of the role to get")
 	cmd.Flags().StringVar(&output, "output", "", "Specify the field to export the value from")
 
+	cmd.MarkFlagRequired("id")
+
 	return cmd
 }
 
